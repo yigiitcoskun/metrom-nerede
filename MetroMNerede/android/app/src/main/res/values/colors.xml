@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kirli beyaz - splash arka plan -->
+    <color name="splash_background">#f4f4f0</color>
+    <color name="splash_footer">#666666</color>
+</resources>

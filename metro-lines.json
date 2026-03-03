@@ -1,0 +1,3422 @@
+{
+    "metro": [
+      {
+        "lineId": 9,
+        "code": "M1A",
+        "color": "rgb(238,49,36)",
+        "name": "Yenikapi-Ataturk Airport Metro Line",
+        "routes": [
+          {
+            "routeId": 66,
+            "name": "Atatürk Havalimanı → Yenikapı"
+          },
+          {
+            "routeId": 67,
+            "name": "Yenikapı → Atatürk Havalimanı"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 105,
+            "name": "Atatürk Havalimanı"
+          },
+          {
+            "stationId": 106,
+            "name": "DTM-İstanbul Fuar Merkezi"
+          },
+          {
+            "stationId": 107,
+            "name": "Yenibosna"
+          },
+          {
+            "stationId": 108,
+            "name": "Ataköy-Şirinevler"
+          },
+          {
+            "stationId": 109,
+            "name": "Bahçelievler"
+          },
+          {
+            "stationId": 110,
+            "name": "Bakırköy-İncirli"
+          },
+          {
+            "stationId": 111,
+            "name": "Zeytinburnu"
+          },
+          {
+            "stationId": 112,
+            "name": "Merter"
+          },
+          {
+            "stationId": 113,
+            "name": "Davutpaşa-YTÜ"
+          },
+          {
+            "stationId": 114,
+            "name": "Terazidere"
+          },
+          {
+            "stationId": 115,
+            "name": "Kocatepe"
+          },
+          {
+            "stationId": 116,
+            "name": "Sağmalcılar"
+          },
+          {
+            "stationId": 117,
+            "name": "Bayrampaşa-Maltepe"
+          },
+          {
+            "stationId": 118,
+            "name": "Topkapı-Ulubatlı"
+          },
+          {
+            "stationId": 119,
+            "name": "Emniyet-Fatih"
+          },
+          {
+            "stationId": 120,
+            "name": "Aksaray"
+          },
+          {
+            "stationId": 121,
+            "name": "Yenikapı"
+          },
+          {
+            "stationId": 203,
+            "name": "Otogar"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 66,
+            "stationId": 105
+          },
+          {
+            "routeId": 66,
+            "stationId": 106
+          },
+          {
+            "routeId": 66,
+            "stationId": 108
+          },
+          {
+            "routeId": 66,
+            "stationId": 109
+          },
+          {
+            "routeId": 66,
+            "stationId": 110
+          },
+          {
+            "routeId": 66,
+            "stationId": 111
+          },
+          {
+            "routeId": 66,
+            "stationId": 112
+          },
+          {
+            "routeId": 66,
+            "stationId": 113
+          },
+          {
+            "routeId": 66,
+            "stationId": 114
+          },
+          {
+            "routeId": 66,
+            "stationId": 203
+          },
+          {
+            "routeId": 66,
+            "stationId": 115
+          },
+          {
+            "routeId": 66,
+            "stationId": 116
+          },
+          {
+            "routeId": 66,
+            "stationId": 117
+          },
+          {
+            "routeId": 66,
+            "stationId": 118
+          },
+          {
+            "routeId": 66,
+            "stationId": 119
+          },
+          {
+            "routeId": 66,
+            "stationId": 120
+          },
+          {
+            "routeId": 66,
+            "stationId": 121
+          },
+          {
+            "routeId": 66,
+            "stationId": 107
+          },
+          {
+            "routeId": 67,
+            "stationId": 105
+          },
+          {
+            "routeId": 67,
+            "stationId": 106
+          },
+          {
+            "routeId": 67,
+            "stationId": 108
+          },
+          {
+            "routeId": 67,
+            "stationId": 109
+          },
+          {
+            "routeId": 67,
+            "stationId": 110
+          },
+          {
+            "routeId": 67,
+            "stationId": 111
+          },
+          {
+            "routeId": 67,
+            "stationId": 112
+          },
+          {
+            "routeId": 67,
+            "stationId": 113
+          },
+          {
+            "routeId": 67,
+            "stationId": 114
+          },
+          {
+            "routeId": 67,
+            "stationId": 203
+          },
+          {
+            "routeId": 67,
+            "stationId": 115
+          },
+          {
+            "routeId": 67,
+            "stationId": 116
+          },
+          {
+            "routeId": 67,
+            "stationId": 117
+          },
+          {
+            "routeId": 67,
+            "stationId": 118
+          },
+          {
+            "routeId": 67,
+            "stationId": 119
+          },
+          {
+            "routeId": 67,
+            "stationId": 120
+          },
+          {
+            "routeId": 67,
+            "stationId": 121
+          },
+          {
+            "routeId": 67,
+            "stationId": 107
+          }
+        ]
+      },
+      {
+        "lineId": 10,
+        "code": "M1B",
+        "color": "rgb(238,49,36)",
+        "name": "Yenikapi-Kirazli Metro Line",
+        "routes": [
+          {
+            "routeId": 30,
+            "name": "Kirazlı-Bağcılar → Yenikapı"
+          },
+          {
+            "routeId": 31,
+            "name": "Yenikapı → Kirazlı-Bağcılar"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 47,
+            "name": "Kirazlı-Bağcılar"
+          },
+          {
+            "stationId": 48,
+            "name": "Bağcılar Meydan"
+          },
+          {
+            "stationId": 49,
+            "name": "Üçyüzlü"
+          },
+          {
+            "stationId": 50,
+            "name": "Menderes"
+          },
+          {
+            "stationId": 51,
+            "name": "Esenler"
+          },
+          {
+            "stationId": 204,
+            "name": "Kocatepe"
+          },
+          {
+            "stationId": 205,
+            "name": "Sağmalcılar"
+          },
+          {
+            "stationId": 206,
+            "name": "Bayrampaşa-Maltepe"
+          },
+          {
+            "stationId": 207,
+            "name": "Topkapı-Ulubatlı"
+          },
+          {
+            "stationId": 208,
+            "name": "Emniyet-Fatih"
+          },
+          {
+            "stationId": 209,
+            "name": "Aksaray"
+          },
+          {
+            "stationId": 210,
+            "name": "Yenikapı"
+          },
+          {
+            "stationId": 211,
+            "name": "Otogar"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 30,
+            "stationId": 47
+          },
+          {
+            "routeId": 30,
+            "stationId": 48
+          },
+          {
+            "routeId": 30,
+            "stationId": 49
+          },
+          {
+            "routeId": 30,
+            "stationId": 50
+          },
+          {
+            "routeId": 30,
+            "stationId": 51
+          },
+          {
+            "routeId": 30,
+            "stationId": 211
+          },
+          {
+            "routeId": 30,
+            "stationId": 204
+          },
+          {
+            "routeId": 30,
+            "stationId": 205
+          },
+          {
+            "routeId": 30,
+            "stationId": 206
+          },
+          {
+            "routeId": 30,
+            "stationId": 207
+          },
+          {
+            "routeId": 30,
+            "stationId": 208
+          },
+          {
+            "routeId": 30,
+            "stationId": 209
+          },
+          {
+            "routeId": 30,
+            "stationId": 210
+          },
+          {
+            "routeId": 31,
+            "stationId": 47
+          },
+          {
+            "routeId": 31,
+            "stationId": 48
+          },
+          {
+            "routeId": 31,
+            "stationId": 49
+          },
+          {
+            "routeId": 31,
+            "stationId": 50
+          },
+          {
+            "routeId": 31,
+            "stationId": 51
+          },
+          {
+            "routeId": 31,
+            "stationId": 211
+          },
+          {
+            "routeId": 31,
+            "stationId": 204
+          },
+          {
+            "routeId": 31,
+            "stationId": 205
+          },
+          {
+            "routeId": 31,
+            "stationId": 206
+          },
+          {
+            "routeId": 31,
+            "stationId": 207
+          },
+          {
+            "routeId": 31,
+            "stationId": 208
+          },
+          {
+            "routeId": 31,
+            "stationId": 209
+          },
+          {
+            "routeId": 31,
+            "stationId": 210
+          }
+        ]
+      },
+      {
+        "lineId": 1,
+        "code": "M2",
+        "color": "rgb(0,153,68)",
+        "name": "Yenikapi-Seyrantepe-Haciosman Metro Line",
+        "routes": [
+          {
+            "routeId": 19,
+            "name": "Sanayi Mahallesi → Seyrantepe"
+          },
+          {
+            "routeId": 20,
+            "name": "Seyrantepe → Sanayi Mahallesi"
+          },
+          {
+            "routeId": 34,
+            "name": "Yenikapı → Hacıosman"
+          },
+          {
+            "routeId": 35,
+            "name": "Hacıosman → Yenikapı"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 20,
+            "name": "Yenikapı"
+          },
+          {
+            "stationId": 21,
+            "name": "Vezneciler-İstanbul Ü."
+          },
+          {
+            "stationId": 22,
+            "name": "Haliç"
+          },
+          {
+            "stationId": 23,
+            "name": "Şişhane"
+          },
+          {
+            "stationId": 24,
+            "name": "Taksim"
+          },
+          {
+            "stationId": 25,
+            "name": "Osmanbey"
+          },
+          {
+            "stationId": 26,
+            "name": "Şişli-Mecidiyeköy"
+          },
+          {
+            "stationId": 27,
+            "name": "Gayrettepe"
+          },
+          {
+            "stationId": 28,
+            "name": "Levent"
+          },
+          {
+            "stationId": 29,
+            "name": "4.Levent"
+          },
+          {
+            "stationId": 30,
+            "name": "Sanayi Mahallesi"
+          },
+          {
+            "stationId": 31,
+            "name": "Seyrantepe"
+          },
+          {
+            "stationId": 32,
+            "name": "İTÜ-Ayazağa"
+          },
+          {
+            "stationId": 33,
+            "name": "Atatürk Oto Sanayi"
+          },
+          {
+            "stationId": 34,
+            "name": "Darüşşafaka"
+          },
+          {
+            "stationId": 35,
+            "name": "Hacıosman"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 19,
+            "stationId": 30
+          },
+          {
+            "routeId": 19,
+            "stationId": 31
+          },
+          {
+            "routeId": 20,
+            "stationId": 30
+          },
+          {
+            "routeId": 20,
+            "stationId": 31
+          },
+          {
+            "routeId": 34,
+            "stationId": 20
+          },
+          {
+            "routeId": 34,
+            "stationId": 21
+          },
+          {
+            "routeId": 34,
+            "stationId": 22
+          },
+          {
+            "routeId": 34,
+            "stationId": 23
+          },
+          {
+            "routeId": 34,
+            "stationId": 24
+          },
+          {
+            "routeId": 34,
+            "stationId": 25
+          },
+          {
+            "routeId": 34,
+            "stationId": 26
+          },
+          {
+            "routeId": 34,
+            "stationId": 27
+          },
+          {
+            "routeId": 34,
+            "stationId": 28
+          },
+          {
+            "routeId": 34,
+            "stationId": 29
+          },
+          {
+            "routeId": 34,
+            "stationId": 30
+          },
+          {
+            "routeId": 34,
+            "stationId": 32
+          },
+          {
+            "routeId": 34,
+            "stationId": 33
+          },
+          {
+            "routeId": 34,
+            "stationId": 34
+          },
+          {
+            "routeId": 34,
+            "stationId": 35
+          },
+          {
+            "routeId": 35,
+            "stationId": 20
+          },
+          {
+            "routeId": 35,
+            "stationId": 21
+          },
+          {
+            "routeId": 35,
+            "stationId": 22
+          },
+          {
+            "routeId": 35,
+            "stationId": 23
+          },
+          {
+            "routeId": 35,
+            "stationId": 24
+          },
+          {
+            "routeId": 35,
+            "stationId": 25
+          },
+          {
+            "routeId": 35,
+            "stationId": 26
+          },
+          {
+            "routeId": 35,
+            "stationId": 27
+          },
+          {
+            "routeId": 35,
+            "stationId": 28
+          },
+          {
+            "routeId": 35,
+            "stationId": 29
+          },
+          {
+            "routeId": 35,
+            "stationId": 30
+          },
+          {
+            "routeId": 35,
+            "stationId": 32
+          },
+          {
+            "routeId": 35,
+            "stationId": 33
+          },
+          {
+            "routeId": 35,
+            "stationId": 34
+          },
+          {
+            "routeId": 35,
+            "stationId": 35
+          }
+        ]
+      },
+      {
+        "lineId": 2,
+        "code": "M3",
+        "color": "rgb(0,168,225)",
+        "name": "Bakirkoy-Kayasehir Metro Line",
+        "routes": [
+          {
+            "routeId": 90,
+            "name": "Bakırköy Sahil → Kayaşehir Merkez"
+          },
+          {
+            "routeId": 91,
+            "name": "Kayaşehir Merkez → Bakırköy Sahil"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 252,
+            "name": "Bakırköy Sahil"
+          },
+          {
+            "stationId": 251,
+            "name": "Özgürlük Meydanı"
+          },
+          {
+            "stationId": 250,
+            "name": "İncirli"
+          },
+          {
+            "stationId": 249,
+            "name": "Haznedar"
+          },
+          {
+            "stationId": 248,
+            "name": "İlkyuva"
+          },
+          {
+            "stationId": 247,
+            "name": "Yıldıztepe"
+          },
+          {
+            "stationId": 246,
+            "name": "Molla Gürani"
+          },
+          {
+            "stationId": 44,
+            "name": "Kirazlı-Bağcılar"
+          },
+          {
+            "stationId": 43,
+            "name": "Yenimahalle"
+          },
+          {
+            "stationId": 42,
+            "name": "Mahmutbey"
+          },
+          {
+            "stationId": 41,
+            "name": "İSTOÇ"
+          },
+          {
+            "stationId": 40,
+            "name": "İkitelli Sanayi"
+          },
+          {
+            "stationId": 39,
+            "name": "Turgut Özal"
+          },
+          {
+            "stationId": 38,
+            "name": "Siteler"
+          },
+          {
+            "stationId": 37,
+            "name": "Başak Konutları"
+          },
+          {
+            "stationId": 36,
+            "name": "Başakşehir-Metrokent"
+          },
+          {
+            "stationId": 237,
+            "name": "Onurkent"
+          },
+          {
+            "stationId": 238,
+            "name": "Şehir Hastanesi"
+          },
+          {
+            "stationId": 239,
+            "name": "Toplu Konutlar"
+          },
+          {
+            "stationId": 240,
+            "name": "Kayaşehir Merkez"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 90,
+            "stationId": 252
+          },
+          {
+            "routeId": 90,
+            "stationId": 251
+          },
+          {
+            "routeId": 90,
+            "stationId": 250
+          },
+          {
+            "routeId": 90,
+            "stationId": 249
+          },
+          {
+            "routeId": 90,
+            "stationId": 248
+          },
+          {
+            "routeId": 90,
+            "stationId": 246
+          },
+          {
+            "routeId": 90,
+            "stationId": 44
+          },
+          {
+            "routeId": 90,
+            "stationId": 43
+          },
+          {
+            "routeId": 90,
+            "stationId": 42
+          },
+          {
+            "routeId": 90,
+            "stationId": 41
+          },
+          {
+            "routeId": 90,
+            "stationId": 40
+          },
+          {
+            "routeId": 90,
+            "stationId": 39
+          },
+          {
+            "routeId": 90,
+            "stationId": 38
+          },
+          {
+            "routeId": 90,
+            "stationId": 37
+          },
+          {
+            "routeId": 90,
+            "stationId": 36
+          },
+          {
+            "routeId": 90,
+            "stationId": 237
+          },
+          {
+            "routeId": 90,
+            "stationId": 238
+          },
+          {
+            "routeId": 90,
+            "stationId": 239
+          },
+          {
+            "routeId": 90,
+            "stationId": 240
+          },
+          {
+            "routeId": 90,
+            "stationId": 247
+          },
+          {
+            "routeId": 91,
+            "stationId": 252
+          },
+          {
+            "routeId": 91,
+            "stationId": 251
+          },
+          {
+            "routeId": 91,
+            "stationId": 250
+          },
+          {
+            "routeId": 91,
+            "stationId": 249
+          },
+          {
+            "routeId": 91,
+            "stationId": 248
+          },
+          {
+            "routeId": 91,
+            "stationId": 246
+          },
+          {
+            "routeId": 91,
+            "stationId": 44
+          },
+          {
+            "routeId": 91,
+            "stationId": 43
+          },
+          {
+            "routeId": 91,
+            "stationId": 42
+          },
+          {
+            "routeId": 91,
+            "stationId": 41
+          },
+          {
+            "routeId": 91,
+            "stationId": 40
+          },
+          {
+            "routeId": 91,
+            "stationId": 39
+          },
+          {
+            "routeId": 91,
+            "stationId": 38
+          },
+          {
+            "routeId": 91,
+            "stationId": 37
+          },
+          {
+            "routeId": 91,
+            "stationId": 36
+          },
+          {
+            "routeId": 91,
+            "stationId": 237
+          },
+          {
+            "routeId": 91,
+            "stationId": 238
+          },
+          {
+            "routeId": 91,
+            "stationId": 239
+          },
+          {
+            "routeId": 91,
+            "stationId": 240
+          },
+          {
+            "routeId": 91,
+            "stationId": 247
+          }
+        ]
+      },
+      {
+        "lineId": 3,
+        "code": "M4",
+        "color": "rgb(233,30,118)",
+        "name": "Kadikoy-Sabiha Gokcen Airport Metro Line",
+        "routes": [
+          {
+            "routeId": 70,
+            "name": "Kadıköy → Sabiha Gökçen Havalimanı"
+          },
+          {
+            "routeId": 71,
+            "name": "Sabiha Gökçen Havalimanı → Kadıköy"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 1,
+            "name": "Kadıköy"
+          },
+          {
+            "stationId": 2,
+            "name": "Ayrılık Çeşmesi"
+          },
+          {
+            "stationId": 3,
+            "name": "Acıbadem"
+          },
+          {
+            "stationId": 4,
+            "name": "Ünalan"
+          },
+          {
+            "stationId": 5,
+            "name": "Göztepe"
+          },
+          {
+            "stationId": 6,
+            "name": "Yenisahra"
+          },
+          {
+            "stationId": 7,
+            "name": "Pegasus-Kozyatağı"
+          },
+          {
+            "stationId": 8,
+            "name": "Bostancı"
+          },
+          {
+            "stationId": 9,
+            "name": "Küçükyalı"
+          },
+          {
+            "stationId": 10,
+            "name": "Maltepe"
+          },
+          {
+            "stationId": 11,
+            "name": "Huzurevi"
+          },
+          {
+            "stationId": 12,
+            "name": "Gülsuyu"
+          },
+          {
+            "stationId": 13,
+            "name": "Esenkent"
+          },
+          {
+            "stationId": 14,
+            "name": "Hastane-Adliye"
+          },
+          {
+            "stationId": 15,
+            "name": "Soğanlık"
+          },
+          {
+            "stationId": 16,
+            "name": "Kartal"
+          },
+          {
+            "stationId": 17,
+            "name": "Yakacık-Adnan Kahveci"
+          },
+          {
+            "stationId": 18,
+            "name": "Pendik"
+          },
+          {
+            "stationId": 19,
+            "name": "Tavşantepe"
+          },
+          {
+            "stationId": 221,
+            "name": "Fevzi Çakmak-Hastane"
+          },
+          {
+            "stationId": 222,
+            "name": "Yayalar-Şeyhli"
+          },
+          {
+            "stationId": 223,
+            "name": "Kurtköy"
+          },
+          {
+            "stationId": 224,
+            "name": "Sabiha Gökçen Havalimanı"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 70,
+            "stationId": 1
+          },
+          {
+            "routeId": 70,
+            "stationId": 2
+          },
+          {
+            "routeId": 70,
+            "stationId": 3
+          },
+          {
+            "routeId": 70,
+            "stationId": 4
+          },
+          {
+            "routeId": 70,
+            "stationId": 5
+          },
+          {
+            "routeId": 70,
+            "stationId": 6
+          },
+          {
+            "routeId": 70,
+            "stationId": 7
+          },
+          {
+            "routeId": 70,
+            "stationId": 8
+          },
+          {
+            "routeId": 70,
+            "stationId": 9
+          },
+          {
+            "routeId": 70,
+            "stationId": 10
+          },
+          {
+            "routeId": 70,
+            "stationId": 11
+          },
+          {
+            "routeId": 70,
+            "stationId": 12
+          },
+          {
+            "routeId": 70,
+            "stationId": 13
+          },
+          {
+            "routeId": 70,
+            "stationId": 14
+          },
+          {
+            "routeId": 70,
+            "stationId": 15
+          },
+          {
+            "routeId": 70,
+            "stationId": 16
+          },
+          {
+            "routeId": 70,
+            "stationId": 17
+          },
+          {
+            "routeId": 70,
+            "stationId": 18
+          },
+          {
+            "routeId": 70,
+            "stationId": 19
+          },
+          {
+            "routeId": 70,
+            "stationId": 221
+          },
+          {
+            "routeId": 70,
+            "stationId": 222
+          },
+          {
+            "routeId": 70,
+            "stationId": 223
+          },
+          {
+            "routeId": 70,
+            "stationId": 224
+          },
+          {
+            "routeId": 71,
+            "stationId": 1
+          },
+          {
+            "routeId": 71,
+            "stationId": 2
+          },
+          {
+            "routeId": 71,
+            "stationId": 3
+          },
+          {
+            "routeId": 71,
+            "stationId": 4
+          },
+          {
+            "routeId": 71,
+            "stationId": 5
+          },
+          {
+            "routeId": 71,
+            "stationId": 6
+          },
+          {
+            "routeId": 71,
+            "stationId": 7
+          },
+          {
+            "routeId": 71,
+            "stationId": 8
+          },
+          {
+            "routeId": 71,
+            "stationId": 9
+          },
+          {
+            "routeId": 71,
+            "stationId": 10
+          },
+          {
+            "routeId": 71,
+            "stationId": 11
+          },
+          {
+            "routeId": 71,
+            "stationId": 12
+          },
+          {
+            "routeId": 71,
+            "stationId": 13
+          },
+          {
+            "routeId": 71,
+            "stationId": 14
+          },
+          {
+            "routeId": 71,
+            "stationId": 15
+          },
+          {
+            "routeId": 71,
+            "stationId": 16
+          },
+          {
+            "routeId": 71,
+            "stationId": 17
+          },
+          {
+            "routeId": 71,
+            "stationId": 18
+          },
+          {
+            "routeId": 71,
+            "stationId": 19
+          },
+          {
+            "routeId": 71,
+            "stationId": 221
+          },
+          {
+            "routeId": 71,
+            "stationId": 222
+          },
+          {
+            "routeId": 71,
+            "stationId": 223
+          },
+          {
+            "routeId": 71,
+            "stationId": 224
+          }
+        ]
+      },
+      {
+        "lineId": 5,
+        "code": "M5",
+        "color": "rgb(104,48,100)",
+        "name": "Uskudar-Samandira Metro Line",
+        "routes": [
+          {
+            "routeId": 102,
+            "name": "Üsküdar → Samandıra Merkez"
+          },
+          {
+            "routeId": 103,
+            "name": "Samandıra Merkez → Üsküdar"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 122,
+            "name": "Üsküdar"
+          },
+          {
+            "stationId": 123,
+            "name": "Fıstıkağacı"
+          },
+          {
+            "stationId": 124,
+            "name": "Bağlarbaşı"
+          },
+          {
+            "stationId": 125,
+            "name": "Altunizade"
+          },
+          {
+            "stationId": 126,
+            "name": "Kısıklı"
+          },
+          {
+            "stationId": 127,
+            "name": "Bulgurlu"
+          },
+          {
+            "stationId": 128,
+            "name": "Ümraniye"
+          },
+          {
+            "stationId": 129,
+            "name": "Çarşı"
+          },
+          {
+            "stationId": 130,
+            "name": "Yamanevler"
+          },
+          {
+            "stationId": 131,
+            "name": "Çakmak"
+          },
+          {
+            "stationId": 132,
+            "name": "Ihlamurkuyu"
+          },
+          {
+            "stationId": 133,
+            "name": "Altınşehir"
+          },
+          {
+            "stationId": 134,
+            "name": "İmam Hatip Lisesi"
+          },
+          {
+            "stationId": 135,
+            "name": "Dudullu"
+          },
+          {
+            "stationId": 136,
+            "name": "Necip Fazıl"
+          },
+          {
+            "stationId": 137,
+            "name": "Çekmeköy"
+          },
+          {
+            "stationId": 241,
+            "name": "Meclis"
+          },
+          {
+            "stationId": 242,
+            "name": "Sarıgazi"
+          },
+          {
+            "stationId": 244,
+            "name": "Sancaktepe"
+          },
+          {
+            "stationId": 245,
+            "name": "Samandıra Merkez"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 102,
+            "stationId": 122
+          },
+          {
+            "routeId": 102,
+            "stationId": 123
+          },
+          {
+            "routeId": 102,
+            "stationId": 124
+          },
+          {
+            "routeId": 102,
+            "stationId": 125
+          },
+          {
+            "routeId": 102,
+            "stationId": 126
+          },
+          {
+            "routeId": 102,
+            "stationId": 127
+          },
+          {
+            "routeId": 102,
+            "stationId": 128
+          },
+          {
+            "routeId": 102,
+            "stationId": 129
+          },
+          {
+            "routeId": 102,
+            "stationId": 130
+          },
+          {
+            "routeId": 102,
+            "stationId": 131
+          },
+          {
+            "routeId": 102,
+            "stationId": 132
+          },
+          {
+            "routeId": 102,
+            "stationId": 133
+          },
+          {
+            "routeId": 102,
+            "stationId": 134
+          },
+          {
+            "routeId": 102,
+            "stationId": 135
+          },
+          {
+            "routeId": 102,
+            "stationId": 136
+          },
+          {
+            "routeId": 102,
+            "stationId": 137
+          },
+          {
+            "routeId": 102,
+            "stationId": 241
+          },
+          {
+            "routeId": 102,
+            "stationId": 242
+          },
+          {
+            "routeId": 102,
+            "stationId": 244
+          },
+          {
+            "routeId": 102,
+            "stationId": 245
+          },
+          {
+            "routeId": 103,
+            "stationId": 122
+          },
+          {
+            "routeId": 103,
+            "stationId": 123
+          },
+          {
+            "routeId": 103,
+            "stationId": 124
+          },
+          {
+            "routeId": 103,
+            "stationId": 125
+          },
+          {
+            "routeId": 103,
+            "stationId": 126
+          },
+          {
+            "routeId": 103,
+            "stationId": 127
+          },
+          {
+            "routeId": 103,
+            "stationId": 128
+          },
+          {
+            "routeId": 103,
+            "stationId": 129
+          },
+          {
+            "routeId": 103,
+            "stationId": 130
+          },
+          {
+            "routeId": 103,
+            "stationId": 131
+          },
+          {
+            "routeId": 103,
+            "stationId": 132
+          },
+          {
+            "routeId": 103,
+            "stationId": 133
+          },
+          {
+            "routeId": 103,
+            "stationId": 134
+          },
+          {
+            "routeId": 103,
+            "stationId": 135
+          },
+          {
+            "routeId": 103,
+            "stationId": 136
+          },
+          {
+            "routeId": 103,
+            "stationId": 137
+          },
+          {
+            "routeId": 103,
+            "stationId": 241
+          },
+          {
+            "routeId": 103,
+            "stationId": 242
+          },
+          {
+            "routeId": 103,
+            "stationId": 244
+          },
+          {
+            "routeId": 103,
+            "stationId": 245
+          }
+        ]
+      },
+      {
+        "lineId": 6,
+        "code": "M6",
+        "color": "rgb(202,169,119)",
+        "name": "Levent-Bogazici U. | Hisarustu Metro Line",
+        "routes": [
+          {
+            "routeId": 15,
+            "name": "Levent → Boğaziçi Ü.-Hisarüstü"
+          },
+          {
+            "routeId": 16,
+            "name": "Boğaziçi Ü.-Hisarüstü → Levent"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 138,
+            "name": "Levent"
+          },
+          {
+            "stationId": 139,
+            "name": "Nispetiye"
+          },
+          {
+            "stationId": 140,
+            "name": "Etiler"
+          },
+          {
+            "stationId": 141,
+            "name": "Boğaziçi Ü.-Hisarüstü"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 15,
+            "stationId": 138
+          },
+          {
+            "routeId": 15,
+            "stationId": 139
+          },
+          {
+            "routeId": 15,
+            "stationId": 140
+          },
+          {
+            "routeId": 15,
+            "stationId": 141
+          },
+          {
+            "routeId": 16,
+            "stationId": 138
+          },
+          {
+            "routeId": 16,
+            "stationId": 139
+          },
+          {
+            "routeId": 16,
+            "stationId": 140
+          },
+          {
+            "routeId": 16,
+            "stationId": 141
+          }
+        ]
+      },
+      {
+        "lineId": 7,
+        "code": "M7",
+        "color": "rgb(248,154,186)",
+        "name": "Yildiz-Mahmutbey Metro Line",
+        "routes": [
+          {
+            "routeId": 42,
+            "name": "Mecidiyeköy → Mahmutbey"
+          },
+          {
+            "routeId": 43,
+            "name": "Mahmutbey → Mecidiyeköy"
+          },
+          {
+            "routeId": 74,
+            "name": "Yıldız → Mecidiyeköy"
+          },
+          {
+            "routeId": 75,
+            "name": "Mecidiyeköy → Yıldız"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 144,
+            "name": "Yıldız"
+          },
+          {
+            "stationId": 145,
+            "name": "Fulya"
+          },
+          {
+            "stationId": 146,
+            "name": "Mecidiyeköy"
+          },
+          {
+            "stationId": 147,
+            "name": "Çağlayan"
+          },
+          {
+            "stationId": 148,
+            "name": "Kağıthane"
+          },
+          {
+            "stationId": 149,
+            "name": "Nurtepe"
+          },
+          {
+            "stationId": 150,
+            "name": "Alibeyköy"
+          },
+          {
+            "stationId": 151,
+            "name": "Çırçır Mahallesi"
+          },
+          {
+            "stationId": 152,
+            "name": "Veysel Karani-Akşemsettin"
+          },
+          {
+            "stationId": 153,
+            "name": "Yeşilpınar"
+          },
+          {
+            "stationId": 154,
+            "name": "Kazım Karabekir"
+          },
+          {
+            "stationId": 155,
+            "name": "Yenimahalle"
+          },
+          {
+            "stationId": 156,
+            "name": "Karadeniz Mahallesi"
+          },
+          {
+            "stationId": 157,
+            "name": "Tekstilkent-Giyimkent"
+          },
+          {
+            "stationId": 158,
+            "name": "Oruç Reis"
+          },
+          {
+            "stationId": 159,
+            "name": "Göztepe Mahallesi"
+          },
+          {
+            "stationId": 160,
+            "name": "Mahmutbey"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 42,
+            "stationId": 146
+          },
+          {
+            "routeId": 42,
+            "stationId": 147
+          },
+          {
+            "routeId": 42,
+            "stationId": 148
+          },
+          {
+            "routeId": 42,
+            "stationId": 149
+          },
+          {
+            "routeId": 42,
+            "stationId": 150
+          },
+          {
+            "routeId": 42,
+            "stationId": 151
+          },
+          {
+            "routeId": 42,
+            "stationId": 152
+          },
+          {
+            "routeId": 42,
+            "stationId": 153
+          },
+          {
+            "routeId": 42,
+            "stationId": 154
+          },
+          {
+            "routeId": 42,
+            "stationId": 155
+          },
+          {
+            "routeId": 42,
+            "stationId": 156
+          },
+          {
+            "routeId": 42,
+            "stationId": 157
+          },
+          {
+            "routeId": 42,
+            "stationId": 158
+          },
+          {
+            "routeId": 42,
+            "stationId": 159
+          },
+          {
+            "routeId": 42,
+            "stationId": 160
+          },
+          {
+            "routeId": 43,
+            "stationId": 146
+          },
+          {
+            "routeId": 43,
+            "stationId": 147
+          },
+          {
+            "routeId": 43,
+            "stationId": 148
+          },
+          {
+            "routeId": 43,
+            "stationId": 149
+          },
+          {
+            "routeId": 43,
+            "stationId": 150
+          },
+          {
+            "routeId": 43,
+            "stationId": 151
+          },
+          {
+            "routeId": 43,
+            "stationId": 152
+          },
+          {
+            "routeId": 43,
+            "stationId": 153
+          },
+          {
+            "routeId": 43,
+            "stationId": 154
+          },
+          {
+            "routeId": 43,
+            "stationId": 155
+          },
+          {
+            "routeId": 43,
+            "stationId": 156
+          },
+          {
+            "routeId": 43,
+            "stationId": 157
+          },
+          {
+            "routeId": 43,
+            "stationId": 158
+          },
+          {
+            "routeId": 43,
+            "stationId": 159
+          },
+          {
+            "routeId": 43,
+            "stationId": 160
+          },
+          {
+            "routeId": 74,
+            "stationId": 144
+          },
+          {
+            "routeId": 74,
+            "stationId": 145
+          },
+          {
+            "routeId": 74,
+            "stationId": 146
+          },
+          {
+            "routeId": 75,
+            "stationId": 144
+          },
+          {
+            "routeId": 75,
+            "stationId": 145
+          },
+          {
+            "routeId": 75,
+            "stationId": 146
+          }
+        ]
+      },
+      {
+        "lineId": 8,
+        "code": "M8",
+        "color": "rgb(68,122,190)",
+        "name": "Bostanci-Parseller Metro Line",
+        "routes": [
+          {
+            "routeId": 78,
+            "name": "Bostancı → Parseller"
+          },
+          {
+            "routeId": 79,
+            "name": "Parseller → Bostancı"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 161,
+            "name": "Bostancı"
+          },
+          {
+            "stationId": 162,
+            "name": "Emin Ali Paşa"
+          },
+          {
+            "stationId": 163,
+            "name": "Ayşekadın"
+          },
+          {
+            "stationId": 164,
+            "name": "Kozyatağı"
+          },
+          {
+            "stationId": 165,
+            "name": "Küçükbakkalköy"
+          },
+          {
+            "stationId": 166,
+            "name": "İçerenköy"
+          },
+          {
+            "stationId": 167,
+            "name": "Kayışdağı"
+          },
+          {
+            "stationId": 168,
+            "name": "Mevlana"
+          },
+          {
+            "stationId": 169,
+            "name": "İMES"
+          },
+          {
+            "stationId": 170,
+            "name": "MODOKO-KEYAP"
+          },
+          {
+            "stationId": 171,
+            "name": "Dudullu"
+          },
+          {
+            "stationId": 172,
+            "name": "Huzur"
+          },
+          {
+            "stationId": 227,
+            "name": "Parseller"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 78,
+            "stationId": 161
+          },
+          {
+            "routeId": 78,
+            "stationId": 162
+          },
+          {
+            "routeId": 78,
+            "stationId": 163
+          },
+          {
+            "routeId": 78,
+            "stationId": 164
+          },
+          {
+            "routeId": 78,
+            "stationId": 165
+          },
+          {
+            "routeId": 78,
+            "stationId": 166
+          },
+          {
+            "routeId": 78,
+            "stationId": 167
+          },
+          {
+            "routeId": 78,
+            "stationId": 168
+          },
+          {
+            "routeId": 78,
+            "stationId": 169
+          },
+          {
+            "routeId": 78,
+            "stationId": 170
+          },
+          {
+            "routeId": 78,
+            "stationId": 171
+          },
+          {
+            "routeId": 78,
+            "stationId": 172
+          },
+          {
+            "routeId": 78,
+            "stationId": 227
+          },
+          {
+            "routeId": 79,
+            "stationId": 161
+          },
+          {
+            "routeId": 79,
+            "stationId": 162
+          },
+          {
+            "routeId": 79,
+            "stationId": 163
+          },
+          {
+            "routeId": 79,
+            "stationId": 164
+          },
+          {
+            "routeId": 79,
+            "stationId": 165
+          },
+          {
+            "routeId": 79,
+            "stationId": 166
+          },
+          {
+            "routeId": 79,
+            "stationId": 167
+          },
+          {
+            "routeId": 79,
+            "stationId": 168
+          },
+          {
+            "routeId": 79,
+            "stationId": 169
+          },
+          {
+            "routeId": 79,
+            "stationId": 170
+          },
+          {
+            "routeId": 79,
+            "stationId": 171
+          },
+          {
+            "routeId": 79,
+            "stationId": 172
+          },
+          {
+            "routeId": 79,
+            "stationId": 227
+          }
+        ]
+      },
+      {
+        "lineId": 17,
+        "code": "M9",
+        "color": "rgb(240,229,20)",
+        "name": "Atakoy-Olimpiyat Metro Line",
+        "routes": [
+          {
+            "routeId": 106,
+            "name": "Olimpiyat → Ataköy"
+          },
+          {
+            "routeId": 107,
+            "name": "Ataköy → Olimpiyat"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 236,
+            "name": "Ataköy"
+          },
+          {
+            "stationId": 235,
+            "name": "Yenibosna"
+          },
+          {
+            "stationId": 234,
+            "name": "Çobançeşme"
+          },
+          {
+            "stationId": 233,
+            "name": "29 Ekim Cumhuriyet"
+          },
+          {
+            "stationId": 232,
+            "name": "Doğu Sanayi"
+          },
+          {
+            "stationId": 231,
+            "name": "Mimar Sinan"
+          },
+          {
+            "stationId": 230,
+            "name": "15 Temmuz"
+          },
+          {
+            "stationId": 229,
+            "name": "Halkalı Caddesi"
+          },
+          {
+            "stationId": 228,
+            "name": "Atatürk Mahallesi"
+          },
+          {
+            "stationId": 216,
+            "name": "Bahariye"
+          },
+          {
+            "stationId": 215,
+            "name": "MASKO"
+          },
+          {
+            "stationId": 214,
+            "name": "İkitelli Sanayi"
+          },
+          {
+            "stationId": 213,
+            "name": "Ziya Gökalp Mahallesi"
+          },
+          {
+            "stationId": 212,
+            "name": "Olimpiyat"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 106,
+            "stationId": 212
+          },
+          {
+            "routeId": 106,
+            "stationId": 213
+          },
+          {
+            "routeId": 106,
+            "stationId": 214
+          },
+          {
+            "routeId": 106,
+            "stationId": 215
+          },
+          {
+            "routeId": 106,
+            "stationId": 216
+          },
+          {
+            "routeId": 106,
+            "stationId": 228
+          },
+          {
+            "routeId": 106,
+            "stationId": 229
+          },
+          {
+            "routeId": 106,
+            "stationId": 230
+          },
+          {
+            "routeId": 106,
+            "stationId": 231
+          },
+          {
+            "routeId": 106,
+            "stationId": 232
+          },
+          {
+            "routeId": 106,
+            "stationId": 233
+          },
+          {
+            "routeId": 106,
+            "stationId": 234
+          },
+          {
+            "routeId": 106,
+            "stationId": 235
+          },
+          {
+            "routeId": 106,
+            "stationId": 236
+          },
+          {
+            "routeId": 107,
+            "stationId": 212
+          },
+          {
+            "routeId": 107,
+            "stationId": 213
+          },
+          {
+            "routeId": 107,
+            "stationId": 214
+          },
+          {
+            "routeId": 107,
+            "stationId": 215
+          },
+          {
+            "routeId": 107,
+            "stationId": 216
+          },
+          {
+            "routeId": 107,
+            "stationId": 228
+          },
+          {
+            "routeId": 107,
+            "stationId": 229
+          },
+          {
+            "routeId": 107,
+            "stationId": 230
+          },
+          {
+            "routeId": 107,
+            "stationId": 231
+          },
+          {
+            "routeId": 107,
+            "stationId": 232
+          },
+          {
+            "routeId": 107,
+            "stationId": 233
+          },
+          {
+            "routeId": 107,
+            "stationId": 234
+          },
+          {
+            "routeId": 107,
+            "stationId": 235
+          },
+          {
+            "routeId": 107,
+            "stationId": 236
+          }
+        ]
+      }
+    ],
+    "tram": [
+      {
+        "lineId": 11,
+        "code": "T1",
+        "color": "rgb(0,79,125)",
+        "name": "Kabatas-Bagcilar Tram Line",
+        "routes": [
+          {
+            "routeId": 21,
+            "name": "Bağcılar → Kabataş"
+          },
+          {
+            "routeId": 22,
+            "name": "Kabataş → Bağcılar"
+          },
+          {
+            "routeId": 26,
+            "name": "Cevizlibağ-AÖY → Eminönü"
+          },
+          {
+            "routeId": 27,
+            "name": "Eminönü → Cevizlibağ-AÖY"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 52,
+            "name": "Bağcılar"
+          },
+          {
+            "stationId": 53,
+            "name": "Güneştepe"
+          },
+          {
+            "stationId": 54,
+            "name": "Yavuzselim"
+          },
+          {
+            "stationId": 55,
+            "name": "Soğanlı"
+          },
+          {
+            "stationId": 56,
+            "name": "Akıncılar"
+          },
+          {
+            "stationId": 57,
+            "name": "Güngören"
+          },
+          {
+            "stationId": 58,
+            "name": "Merter Tekstil Merkezi"
+          },
+          {
+            "stationId": 59,
+            "name": "Mehmet Akif"
+          },
+          {
+            "stationId": 60,
+            "name": "Zeytinburnu"
+          },
+          {
+            "stationId": 61,
+            "name": "Mithatpaşa"
+          },
+          {
+            "stationId": 62,
+            "name": "Seyitnizam-Akşemsettin"
+          },
+          {
+            "stationId": 63,
+            "name": "Merkezefendi"
+          },
+          {
+            "stationId": 64,
+            "name": "Cevizlibağ-AÖY"
+          },
+          {
+            "stationId": 65,
+            "name": "Topkapı"
+          },
+          {
+            "stationId": 66,
+            "name": "Pazartekke"
+          },
+          {
+            "stationId": 67,
+            "name": "Çapa-Şehremini"
+          },
+          {
+            "stationId": 68,
+            "name": "Fındıkzade"
+          },
+          {
+            "stationId": 69,
+            "name": "Haseki"
+          },
+          {
+            "stationId": 70,
+            "name": "Yusufpaşa"
+          },
+          {
+            "stationId": 71,
+            "name": "Aksaray"
+          },
+          {
+            "stationId": 72,
+            "name": "Laleli-İstanbul Ü."
+          },
+          {
+            "stationId": 73,
+            "name": "Beyazıt-Kapalıçarşı"
+          },
+          {
+            "stationId": 74,
+            "name": "Çemberlitaş"
+          },
+          {
+            "stationId": 75,
+            "name": "Sultanahmet"
+          },
+          {
+            "stationId": 76,
+            "name": "Gülhane"
+          },
+          {
+            "stationId": 77,
+            "name": "Sirkeci"
+          },
+          {
+            "stationId": 78,
+            "name": "Eminönü"
+          },
+          {
+            "stationId": 79,
+            "name": "Karaköy"
+          },
+          {
+            "stationId": 80,
+            "name": "Tophane"
+          },
+          {
+            "stationId": 81,
+            "name": "Fındıklı-Mimar Sinan Ü."
+          },
+          {
+            "stationId": 82,
+            "name": "Kabataş"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 21,
+            "stationId": 52
+          },
+          {
+            "routeId": 21,
+            "stationId": 53
+          },
+          {
+            "routeId": 21,
+            "stationId": 54
+          },
+          {
+            "routeId": 21,
+            "stationId": 55
+          },
+          {
+            "routeId": 21,
+            "stationId": 56
+          },
+          {
+            "routeId": 21,
+            "stationId": 57
+          },
+          {
+            "routeId": 21,
+            "stationId": 58
+          },
+          {
+            "routeId": 21,
+            "stationId": 59
+          },
+          {
+            "routeId": 21,
+            "stationId": 60
+          },
+          {
+            "routeId": 21,
+            "stationId": 61
+          },
+          {
+            "routeId": 21,
+            "stationId": 62
+          },
+          {
+            "routeId": 21,
+            "stationId": 63
+          },
+          {
+            "routeId": 21,
+            "stationId": 64
+          },
+          {
+            "routeId": 21,
+            "stationId": 65
+          },
+          {
+            "routeId": 21,
+            "stationId": 66
+          },
+          {
+            "routeId": 21,
+            "stationId": 67
+          },
+          {
+            "routeId": 21,
+            "stationId": 68
+          },
+          {
+            "routeId": 21,
+            "stationId": 69
+          },
+          {
+            "routeId": 21,
+            "stationId": 70
+          },
+          {
+            "routeId": 21,
+            "stationId": 71
+          },
+          {
+            "routeId": 21,
+            "stationId": 72
+          },
+          {
+            "routeId": 21,
+            "stationId": 73
+          },
+          {
+            "routeId": 21,
+            "stationId": 74
+          },
+          {
+            "routeId": 21,
+            "stationId": 75
+          },
+          {
+            "routeId": 21,
+            "stationId": 76
+          },
+          {
+            "routeId": 21,
+            "stationId": 77
+          },
+          {
+            "routeId": 21,
+            "stationId": 78
+          },
+          {
+            "routeId": 21,
+            "stationId": 79
+          },
+          {
+            "routeId": 21,
+            "stationId": 80
+          },
+          {
+            "routeId": 21,
+            "stationId": 81
+          },
+          {
+            "routeId": 21,
+            "stationId": 82
+          },
+          {
+            "routeId": 22,
+            "stationId": 52
+          },
+          {
+            "routeId": 22,
+            "stationId": 53
+          },
+          {
+            "routeId": 22,
+            "stationId": 54
+          },
+          {
+            "routeId": 22,
+            "stationId": 55
+          },
+          {
+            "routeId": 22,
+            "stationId": 56
+          },
+          {
+            "routeId": 22,
+            "stationId": 57
+          },
+          {
+            "routeId": 22,
+            "stationId": 58
+          },
+          {
+            "routeId": 22,
+            "stationId": 59
+          },
+          {
+            "routeId": 22,
+            "stationId": 60
+          },
+          {
+            "routeId": 22,
+            "stationId": 61
+          },
+          {
+            "routeId": 22,
+            "stationId": 62
+          },
+          {
+            "routeId": 22,
+            "stationId": 63
+          },
+          {
+            "routeId": 22,
+            "stationId": 64
+          },
+          {
+            "routeId": 22,
+            "stationId": 65
+          },
+          {
+            "routeId": 22,
+            "stationId": 66
+          },
+          {
+            "routeId": 22,
+            "stationId": 67
+          },
+          {
+            "routeId": 22,
+            "stationId": 68
+          },
+          {
+            "routeId": 22,
+            "stationId": 69
+          },
+          {
+            "routeId": 22,
+            "stationId": 70
+          },
+          {
+            "routeId": 22,
+            "stationId": 71
+          },
+          {
+            "routeId": 22,
+            "stationId": 72
+          },
+          {
+            "routeId": 22,
+            "stationId": 73
+          },
+          {
+            "routeId": 22,
+            "stationId": 74
+          },
+          {
+            "routeId": 22,
+            "stationId": 75
+          },
+          {
+            "routeId": 22,
+            "stationId": 76
+          },
+          {
+            "routeId": 22,
+            "stationId": 77
+          },
+          {
+            "routeId": 22,
+            "stationId": 78
+          },
+          {
+            "routeId": 22,
+            "stationId": 79
+          },
+          {
+            "routeId": 22,
+            "stationId": 80
+          },
+          {
+            "routeId": 22,
+            "stationId": 81
+          },
+          {
+            "routeId": 22,
+            "stationId": 82
+          },
+          {
+            "routeId": 26,
+            "stationId": 64
+          },
+          {
+            "routeId": 26,
+            "stationId": 65
+          },
+          {
+            "routeId": 26,
+            "stationId": 66
+          },
+          {
+            "routeId": 26,
+            "stationId": 67
+          },
+          {
+            "routeId": 26,
+            "stationId": 68
+          },
+          {
+            "routeId": 26,
+            "stationId": 69
+          },
+          {
+            "routeId": 26,
+            "stationId": 70
+          },
+          {
+            "routeId": 26,
+            "stationId": 71
+          },
+          {
+            "routeId": 26,
+            "stationId": 72
+          },
+          {
+            "routeId": 26,
+            "stationId": 73
+          },
+          {
+            "routeId": 26,
+            "stationId": 74
+          },
+          {
+            "routeId": 26,
+            "stationId": 75
+          },
+          {
+            "routeId": 26,
+            "stationId": 76
+          },
+          {
+            "routeId": 26,
+            "stationId": 77
+          },
+          {
+            "routeId": 26,
+            "stationId": 78
+          },
+          {
+            "routeId": 27,
+            "stationId": 64
+          },
+          {
+            "routeId": 27,
+            "stationId": 65
+          },
+          {
+            "routeId": 27,
+            "stationId": 66
+          },
+          {
+            "routeId": 27,
+            "stationId": 67
+          },
+          {
+            "routeId": 27,
+            "stationId": 68
+          },
+          {
+            "routeId": 27,
+            "stationId": 69
+          },
+          {
+            "routeId": 27,
+            "stationId": 70
+          },
+          {
+            "routeId": 27,
+            "stationId": 71
+          },
+          {
+            "routeId": 27,
+            "stationId": 72
+          },
+          {
+            "routeId": 27,
+            "stationId": 73
+          },
+          {
+            "routeId": 27,
+            "stationId": 74
+          },
+          {
+            "routeId": 27,
+            "stationId": 75
+          },
+          {
+            "routeId": 27,
+            "stationId": 76
+          },
+          {
+            "routeId": 27,
+            "stationId": 77
+          },
+          {
+            "routeId": 27,
+            "stationId": 78
+          }
+        ]
+      },
+      {
+        "lineId": 12,
+        "code": "T3",
+        "color": "rgb(168,101,40)",
+        "name": "Kadikoy-Moda Tram Line",
+        "routes": [
+          {
+            "routeId": 23,
+            "name": "İskele Camii → Kadıköy İDO"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 189,
+            "name": "İskele Camii"
+          },
+          {
+            "stationId": 190,
+            "name": "Çarşı"
+          },
+          {
+            "stationId": 191,
+            "name": "Altıyol"
+          },
+          {
+            "stationId": 192,
+            "name": "Bahariye"
+          },
+          {
+            "stationId": 193,
+            "name": "Kilise"
+          },
+          {
+            "stationId": 194,
+            "name": "Moda İlkokulu"
+          },
+          {
+            "stationId": 195,
+            "name": "Moda"
+          },
+          {
+            "stationId": 196,
+            "name": "Mühürdar"
+          },
+          {
+            "stationId": 197,
+            "name": "Damga Sokak"
+          },
+          {
+            "stationId": 198,
+            "name": "Kadıköy İDO"
+          },
+          {
+            "stationId": 218,
+            "name": "Rızapaşa"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 23,
+            "stationId": 189
+          },
+          {
+            "routeId": 23,
+            "stationId": 190
+          },
+          {
+            "routeId": 23,
+            "stationId": 191
+          },
+          {
+            "routeId": 23,
+            "stationId": 192
+          },
+          {
+            "routeId": 23,
+            "stationId": 193
+          },
+          {
+            "routeId": 23,
+            "stationId": 194
+          },
+          {
+            "routeId": 23,
+            "stationId": 195
+          },
+          {
+            "routeId": 23,
+            "stationId": 196
+          },
+          {
+            "routeId": 23,
+            "stationId": 197
+          },
+          {
+            "routeId": 23,
+            "stationId": 198
+          }
+        ]
+      },
+      {
+        "lineId": 13,
+        "code": "T4",
+        "color": "rgb(244,126,70)",
+        "name": "Topkapi-Mescid-i Selam Tram Line",
+        "routes": [
+          {
+            "routeId": 17,
+            "name": "Mescid-i Selam → Topkapı"
+          },
+          {
+            "routeId": 18,
+            "name": "Topkapı → Mescid-i Selam"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 83,
+            "name": "Mescid-i Selam"
+          },
+          {
+            "stationId": 84,
+            "name": "Cebeci"
+          },
+          {
+            "stationId": 85,
+            "name": "Sultançiftliği"
+          },
+          {
+            "stationId": 86,
+            "name": "Yenimahalle"
+          },
+          {
+            "stationId": 87,
+            "name": "Hacı Şükrü"
+          },
+          {
+            "stationId": 88,
+            "name": "50.Yıl-Baştabya"
+          },
+          {
+            "stationId": 89,
+            "name": "Cumhuriyet Mahallesi"
+          },
+          {
+            "stationId": 90,
+            "name": "Kiptaş-Venezia"
+          },
+          {
+            "stationId": 91,
+            "name": "Karadeniz"
+          },
+          {
+            "stationId": 92,
+            "name": "Taşköprü"
+          },
+          {
+            "stationId": 93,
+            "name": "Ali Fuat Başgil"
+          },
+          {
+            "stationId": 94,
+            "name": "Bosna Çukurçeşme"
+          },
+          {
+            "stationId": 95,
+            "name": "Sağmalcılar"
+          },
+          {
+            "stationId": 96,
+            "name": "Uluyol Bereç"
+          },
+          {
+            "stationId": 97,
+            "name": "Rami"
+          },
+          {
+            "stationId": 98,
+            "name": "Topçular"
+          },
+          {
+            "stationId": 99,
+            "name": "Demirkapı"
+          },
+          {
+            "stationId": 100,
+            "name": "Şehitlik"
+          },
+          {
+            "stationId": 101,
+            "name": "Edirnekapı"
+          },
+          {
+            "stationId": 102,
+            "name": "Vatan"
+          },
+          {
+            "stationId": 103,
+            "name": "Fetihkapı"
+          },
+          {
+            "stationId": 104,
+            "name": "Topkapı"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 17,
+            "stationId": 83
+          },
+          {
+            "routeId": 17,
+            "stationId": 84
+          },
+          {
+            "routeId": 17,
+            "stationId": 85
+          },
+          {
+            "routeId": 17,
+            "stationId": 86
+          },
+          {
+            "routeId": 17,
+            "stationId": 87
+          },
+          {
+            "routeId": 17,
+            "stationId": 88
+          },
+          {
+            "routeId": 17,
+            "stationId": 89
+          },
+          {
+            "routeId": 17,
+            "stationId": 90
+          },
+          {
+            "routeId": 17,
+            "stationId": 91
+          },
+          {
+            "routeId": 17,
+            "stationId": 92
+          },
+          {
+            "routeId": 17,
+            "stationId": 93
+          },
+          {
+            "routeId": 17,
+            "stationId": 94
+          },
+          {
+            "routeId": 17,
+            "stationId": 95
+          },
+          {
+            "routeId": 17,
+            "stationId": 96
+          },
+          {
+            "routeId": 17,
+            "stationId": 97
+          },
+          {
+            "routeId": 17,
+            "stationId": 98
+          },
+          {
+            "routeId": 17,
+            "stationId": 99
+          },
+          {
+            "routeId": 17,
+            "stationId": 100
+          },
+          {
+            "routeId": 17,
+            "stationId": 101
+          },
+          {
+            "routeId": 17,
+            "stationId": 102
+          },
+          {
+            "routeId": 17,
+            "stationId": 103
+          },
+          {
+            "routeId": 17,
+            "stationId": 104
+          },
+          {
+            "routeId": 18,
+            "stationId": 83
+          },
+          {
+            "routeId": 18,
+            "stationId": 84
+          },
+          {
+            "routeId": 18,
+            "stationId": 85
+          },
+          {
+            "routeId": 18,
+            "stationId": 86
+          },
+          {
+            "routeId": 18,
+            "stationId": 87
+          },
+          {
+            "routeId": 18,
+            "stationId": 88
+          },
+          {
+            "routeId": 18,
+            "stationId": 89
+          },
+          {
+            "routeId": 18,
+            "stationId": 90
+          },
+          {
+            "routeId": 18,
+            "stationId": 91
+          },
+          {
+            "routeId": 18,
+            "stationId": 92
+          },
+          {
+            "routeId": 18,
+            "stationId": 93
+          },
+          {
+            "routeId": 18,
+            "stationId": 94
+          },
+          {
+            "routeId": 18,
+            "stationId": 95
+          },
+          {
+            "routeId": 18,
+            "stationId": 96
+          },
+          {
+            "routeId": 18,
+            "stationId": 97
+          },
+          {
+            "routeId": 18,
+            "stationId": 98
+          },
+          {
+            "routeId": 18,
+            "stationId": 99
+          },
+          {
+            "routeId": 18,
+            "stationId": 100
+          },
+          {
+            "routeId": 18,
+            "stationId": 101
+          },
+          {
+            "routeId": 18,
+            "stationId": 102
+          },
+          {
+            "routeId": 18,
+            "stationId": 103
+          },
+          {
+            "routeId": 18,
+            "stationId": 104
+          }
+        ]
+      },
+      {
+        "lineId": 14,
+        "code": "T5",
+        "color": "rgb(124,114,179)",
+        "name": "Eminonu-Alibeykoy Tram Line",
+        "routes": [
+          {
+            "routeId": 86,
+            "name": "Eminönü → Alibeyköy Cep Otogarı"
+          },
+          {
+            "routeId": 87,
+            "name": "Alibeyköy Cep Otogarı → Eminönü"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 173,
+            "name": "Eminönü"
+          },
+          {
+            "stationId": 174,
+            "name": "Küçükpazar"
+          },
+          {
+            "stationId": 175,
+            "name": "Cibali"
+          },
+          {
+            "stationId": 176,
+            "name": "Fener"
+          },
+          {
+            "stationId": 177,
+            "name": "Balat"
+          },
+          {
+            "stationId": 178,
+            "name": "Ayvansaray"
+          },
+          {
+            "stationId": 179,
+            "name": "Feshane"
+          },
+          {
+            "stationId": 180,
+            "name": "Eyüpsultan Teleferik"
+          },
+          {
+            "stationId": 181,
+            "name": "Eyüpsultan Devlet Hastanesi"
+          },
+          {
+            "stationId": 182,
+            "name": "Silahtarağa Mahallesi"
+          },
+          {
+            "stationId": 183,
+            "name": "Üniversite"
+          },
+          {
+            "stationId": 184,
+            "name": "Alibeyköy Merkez"
+          },
+          {
+            "stationId": 185,
+            "name": "Alibeyköy Metro"
+          },
+          {
+            "stationId": 186,
+            "name": "Alibeyköy Cep Otogarı"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 86,
+            "stationId": 173
+          },
+          {
+            "routeId": 86,
+            "stationId": 174
+          },
+          {
+            "routeId": 86,
+            "stationId": 175
+          },
+          {
+            "routeId": 86,
+            "stationId": 176
+          },
+          {
+            "routeId": 86,
+            "stationId": 177
+          },
+          {
+            "routeId": 86,
+            "stationId": 178
+          },
+          {
+            "routeId": 86,
+            "stationId": 179
+          },
+          {
+            "routeId": 86,
+            "stationId": 180
+          },
+          {
+            "routeId": 86,
+            "stationId": 181
+          },
+          {
+            "routeId": 86,
+            "stationId": 182
+          },
+          {
+            "routeId": 86,
+            "stationId": 183
+          },
+          {
+            "routeId": 86,
+            "stationId": 184
+          },
+          {
+            "routeId": 86,
+            "stationId": 185
+          },
+          {
+            "routeId": 86,
+            "stationId": 186
+          },
+          {
+            "routeId": 87,
+            "stationId": 173
+          },
+          {
+            "routeId": 87,
+            "stationId": 174
+          },
+          {
+            "routeId": 87,
+            "stationId": 175
+          },
+          {
+            "routeId": 87,
+            "stationId": 176
+          },
+          {
+            "routeId": 87,
+            "stationId": 177
+          },
+          {
+            "routeId": 87,
+            "stationId": 178
+          },
+          {
+            "routeId": 87,
+            "stationId": 179
+          },
+          {
+            "routeId": 87,
+            "stationId": 180
+          },
+          {
+            "routeId": 87,
+            "stationId": 181
+          },
+          {
+            "routeId": 87,
+            "stationId": 182
+          },
+          {
+            "routeId": 87,
+            "stationId": 183
+          },
+          {
+            "routeId": 87,
+            "stationId": 184
+          },
+          {
+            "routeId": 87,
+            "stationId": 185
+          },
+          {
+            "routeId": 87,
+            "stationId": 186
+          }
+        ]
+      }
+    ],
+    "funicular": [
+      {
+        "lineId": 4,
+        "code": "F1",
+        "color": "rgb(124,115,88)",
+        "name": "Taksim - Kabatas Funicular Line",
+        "routes": [
+          {
+            "routeId": 13,
+            "name": "Kabataş → Taksim"
+          },
+          {
+            "routeId": 14,
+            "name": "Taksim → Kabataş"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 187,
+            "name": "Kabataş"
+          },
+          {
+            "stationId": 188,
+            "name": "Taksim"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 13,
+            "stationId": 187
+          },
+          {
+            "routeId": 13,
+            "stationId": 188
+          },
+          {
+            "routeId": 14,
+            "stationId": 187
+          },
+          {
+            "routeId": 14,
+            "stationId": 188
+          }
+        ]
+      },
+      {
+        "lineId": 20,
+        "code": "F4",
+        "color": "rgb(124,115,88)",
+        "name": "Bogazici University | Hisarustu-Asiyan Funicular Line",
+        "routes": [
+          {
+            "routeId": 72,
+            "name": "Aşiyan → Boğaziçi Ü./Hisarüstü"
+          },
+          {
+            "routeId": 73,
+            "name": "Boğaziçi Ü./Hisarüstü → Aşiyan"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 225,
+            "name": "Aşiyan"
+          },
+          {
+            "stationId": 226,
+            "name": "Boğaziçi Ü./Hisarüstü"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 72,
+            "stationId": 225
+          },
+          {
+            "routeId": 72,
+            "stationId": 226
+          },
+          {
+            "routeId": 73,
+            "stationId": 225
+          },
+          {
+            "routeId": 73,
+            "stationId": 226
+          }
+        ]
+      }
+    ],
+    "cable_car": [
+      {
+        "lineId": 15,
+        "code": "TF1",
+        "color": "rgb(104,188,176)",
+        "name": "Macka-Taskisla Aerial Cable Car Line",
+        "routes": [
+          {
+            "routeId": 46,
+            "name": "Maçka → Taşkışla"
+          },
+          {
+            "routeId": 47,
+            "name": "Taşkışla → Maçka"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 199,
+            "name": "Maçka"
+          },
+          {
+            "stationId": 200,
+            "name": "Taşkışla"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 46,
+            "stationId": 199
+          },
+          {
+            "routeId": 46,
+            "stationId": 200
+          },
+          {
+            "routeId": 47,
+            "stationId": 199
+          },
+          {
+            "routeId": 47,
+            "stationId": 200
+          }
+        ]
+      },
+      {
+        "lineId": 16,
+        "code": "TF2",
+        "color": "rgb(104,188,176)",
+        "name": "Eyup-Piyer Loti Aerial Cable Car Line",
+        "routes": [
+          {
+            "routeId": 44,
+            "name": "Eyüp → Piyer Loti"
+          },
+          {
+            "routeId": 45,
+            "name": "Piyer Loti → Eyüp"
+          }
+        ],
+        "stations": [
+          {
+            "stationId": 201,
+            "name": "Eyüp"
+          },
+          {
+            "stationId": 202,
+            "name": "Piyer Loti"
+          }
+        ],
+        "routeStationMap": [
+          {
+            "routeId": 44,
+            "stationId": 201
+          },
+          {
+            "routeId": 44,
+            "stationId": 202
+          },
+          {
+            "routeId": 45,
+            "stationId": 201
+          },
+          {
+            "routeId": 45,
+            "stationId": 202
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "api": {
+        "endpoint": "https://seferler.iett.istanbul/tr/seferler",
+        "method": "POST",
+        "contentType": "application/x-www-form-urlencoded",
+        "params": {
+          "hatId": "lineId (integer) — from line object",
+          "seferId": "routeId (integer) — from route object",
+          "istasyonId": "stationId (integer) — from station object",
+          "secim": "1=now | 2=later | 3=firstAndLast",
+          "tarih": "date string (DD.MM.YYYY) — required when secim=2 or 3",
+          "saat": "hour as zero-padded string '00'-'23' — required when secim=2",
+          "dakika": "minute as zero-padded string '00'-'58' — required when secim=2"
+        }
+      }
+    }
+  }

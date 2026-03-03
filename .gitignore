@@ -1,0 +1,24 @@
+# Ortam / gizli dosyalar (yayınlanmamalı)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Yerel / IDE
+.DS_Store
+.idea/
+*.swp
+*.swo
+*~
