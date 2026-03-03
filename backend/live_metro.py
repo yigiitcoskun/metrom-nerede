@@ -20,7 +20,7 @@ METRO_AJAX_URL = "https://www.metro.istanbul/SeferDurumlari/AJAXSeferGetir"
 CACHE_TTL_SECONDS = 45
 META_CACHE_TTL = 6 * 3600
 RATE_LIMIT_PER_MINUTE = 30
-DEFAULT_KOD = "5648760e-9d58-457d-aa52-370d094677f0"
+DEFAULT_KOD = ""
 
 # metro-lines.json'da yoksa (eski M7 vb.) sayfa scrape / fallback
 FALLBACK_M7_STATIONS: Dict[str, str] = {"Yenimahalle": "155"}
