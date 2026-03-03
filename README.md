@@ -106,14 +106,7 @@ Hata bildirimi ve özellik istekleri için **Issues** kullanabilirsiniz.
 
 ## Lisans
 
-Bu proje açık kaynak olarak paylaşılmaktadır. Kullanım ve dağıtım koşulları için proje köküne eklenecek bir **LICENSE** dosyasına (örn. MIT, Apache 2.0) bakın.
-
----
-
-## Teşekkürler
-
-- Metro İstanbul canlı sefer verisi
-- [React Native](https://reactnative.dev/) ve [React Navigation](https://reactnavigation.org/) toplulukları
+Bu proje açık kaynak olarak paylaşılmaktadır.
 
 ---
 
