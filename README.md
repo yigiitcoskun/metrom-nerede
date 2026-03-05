@@ -8,6 +8,20 @@
 
 ---
 
+## Ekran görüntüleri
+
+| Ana sayfa | Metrolar – hat listesi |
+|-----------|-------------------------|
+| <img src="screenshots/01-ana-sayfa.png" width="280" alt="Ana sayfa" /> | <img src="screenshots/02-metrolar-listesi.png" width="280" alt="Metrolar listesi" /> |
+| Hat seçin (Metrolar / Tramvaylar) | M1A, M2, M3… hatları |
+
+| Duraklar – seferler için dokun | Canlı seferler |
+|--------------------------------|----------------|
+| <img src="screenshots/03-m2-duraklar.png" width="280" alt="M2 duraklar" /> | <img src="screenshots/04-canli-seferler.png" width="280" alt="Canlı seferler" /> |
+| Hattın durakları listesi | Yön bazlı kalkış saatleri ve dakika |
+
+---
+
 ## Özellikler
 
 - **Metrolar:** M1A, M1B, M2, M3, M4, M5, M6, M7, M8, M9 hat listesi ve duraklar
@@ -106,7 +120,7 @@ Hata bildirimi ve özellik istekleri için **Issues** kullanabilirsiniz.
 
 ## Lisans
 
-Bu proje açık kaynak olarak paylaşılmaktadır.
+Bu proje açık kaynak olarak paylaşılmaktadır. Kullanım ve dağıtım koşulları için proje köküne eklenecek bir **LICENSE** dosyasına (örn. MIT, Apache 2.0) bakın.
 
 ---
 
