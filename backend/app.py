@@ -11,6 +11,16 @@ app = Flask(__name__)
 CORS(app)
 
 
+@app.route("/", methods=["GET"])
+def index():
+    """Ana sayfa: API bilgisi (tarayıcıda kök URL açıldığında 404 yerine bu döner)."""
+    return jsonify({
+        "name": "Metrom Nerede API",
+        "status": "ok",
+        "docs": "Örnek: /api/health, /api/veriler/lines, /api/tram/lines, /api/live/departures?hat=M2&istasyon=Taksim",
+    })
+
+
 @app.route("/api/health", methods=["GET"])
 def health():
     return jsonify({"status": "ok"})
