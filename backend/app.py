@@ -2,7 +2,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-from gtfs_loader import get_store
+from gtfs_loader import get_store, get_store_optional
 from live_metro import check_rate_limit, sefer_getir_iki_yon
 from veriler_loader import get_metro_lines, get_stations_for_line
 from tram_loader import get_tram_lines, get_stations_for_line as get_tram_stations_for_line
@@ -122,36 +122,73 @@ def tram_stations_with_arrivals(code):
 @app.route("/api/categories", methods=["GET"])
 def categories():
     """Returns { metrolar: [...], tramvaylar: [...], marmaray: [...] }."""
-    store = get_store()
-    cat = store.get_categories()
-    return jsonify(cat)
+    store = get_store_optional()
+    if store:
+        return jsonify(store.get_categories())
+    # Vercel / GTFS yok: veriler + tram ile doldur (uygulama formatına uygun)
+    metrolar = [{"route_id": L.get("code"), "route_short_name": L.get("code"), "route_long_name": L.get("name") or ""} for L in get_metro_lines()]
+    tramvaylar = [{"route_id": L.get("code"), "route_short_name": L.get("code"), "route_long_name": L.get("name") or ""} for L in get_tram_lines()]
+    return jsonify({"metrolar": metrolar, "tramvaylar": tramvaylar, "marmaray": []})
 
 
 @app.route("/api/lines/<category>", methods=["GET"])
 def lines(category):
     """Category: metrolar | tramvaylar | marmaray. Returns list of lines for that category."""
-    store = get_store()
-    cat = store.get_categories()
+    store = get_store_optional()
+    if store:
+        cat = store.get_categories()
+        key = category.lower()
+        if key not in cat:
+            return jsonify({"error": "Unknown category"}), 400
+        return jsonify(cat[key])
     key = category.lower()
-    if key not in cat:
-        return jsonify({"error": "Unknown category"}), 400
-    return jsonify(cat[key])
+    if key == "metrolar":
+        out = [{"route_id": L.get("code"), "route_short_name": L.get("code"), "route_long_name": L.get("name") or ""} for L in get_metro_lines()]
+        return jsonify(out)
+    if key == "tramvaylar":
+        out = [{"route_id": L.get("code"), "route_short_name": L.get("code"), "route_long_name": L.get("name") or ""} for L in get_tram_lines()]
+        return jsonify(out)
+    if key == "marmaray":
+        return jsonify([])
+    return jsonify({"error": "Unknown category"}), 400
 
 
 @app.route("/api/route/<route_id>/stations", methods=["GET"])
 def route_stations(route_id):
     """Ordered list of stations for a route (line)."""
-    store = get_store()
-    stations = store.get_stations_for_route(route_id)
-    return jsonify(stations)
+    store = get_store_optional()
+    if store:
+        stations = store.get_stations_for_route(route_id)
+        return jsonify(stations)
+    # GTFS yok: veriler/tram'dan durak listesi (route_id = hat kodu: M2, T1, ...)
+    stations_metro = get_stations_for_line(route_id)
+    if stations_metro:
+        out = [{"stop_id": str(s.get("stationId")), "stop_name": s.get("name") or ""} for s in stations_metro]
+        return jsonify(out)
+    stations_tram = get_tram_stations_for_line(route_id)
+    if stations_tram:
+        out = [{"stop_id": str(s.get("stationId")), "stop_name": s.get("name") or ""} for s in stations_tram]
+        return jsonify(out)
+    return jsonify([])
 
 
 @app.route("/api/route/<route_id>/station/<stop_id>/arrivals", methods=["GET"])
 def station_arrivals(route_id, stop_id):
     """Next departures at this station for this route, by direction (e.g. Yıldız yönü -> 5 dk)."""
-    store = get_store()
-    arrivals = store.get_arrivals(route_id, stop_id)
-    return jsonify(arrivals)
+    store = get_store_optional()
+    if store:
+        arrivals = store.get_arrivals(route_id, stop_id)
+        return jsonify(arrivals)
+    # GTFS yok: canlı sefer dene (stop_id ile durak adı eşleşmesi gerekir; stop_name kullanılıyor)
+    stop_name = request.args.get("stop_name") or stop_id
+    if check_rate_limit(request.remote_addr or "127.0.0.1"):
+        try:
+            data = sefer_getir_iki_yon(route_id, stop_name)
+            out = [{"direction": y.get("yon"), "minutes": y.get("minutes"), "display": None} for y in data.get("yonler", [])]
+            return jsonify(out)
+        except Exception:
+            pass
+    return jsonify([])
 
 
 @app.route("/api/route/<route_id>/stations-with-arrivals", methods=["GET"])
@@ -160,27 +197,40 @@ def stations_with_arrivals(route_id):
     All stations for the route, each with next arrivals per direction (GTFS/frekans).
     ?live=1 ile canlı veri dene (sadece desteklenen hatlar, rate limit var).
     """
-    store = get_store()
-    stations = store.get_stations_for_route(route_id)
+    store = get_store_optional()
     use_live = request.args.get("live") == "1"
-    route_info = store.routes_by_id.get(route_id, {})
-    hat = (route_info.get("route_short_name") or "").strip()
 
+    if store:
+        stations = store.get_stations_for_route(route_id)
+        route_info = store.routes_by_id.get(route_id, {})
+        hat = (route_info.get("route_short_name") or "").strip()
+        result = []
+        for s in stations:
+            sid = s["stop_id"]
+            stop_name = s["stop_name"]
+            arrivals = []
+            if use_live and hat and _try_live_arrivals(hat, stop_name, request, arrivals):
+                pass
+            else:
+                for a in store.get_arrivals(route_id, sid):
+                    arrivals.append({"direction": a.get("direction"), "minutes": a.get("minutes"), "display": a.get("display")})
+            result.append({"stop_id": sid, "stop_name": stop_name, "arrivals": arrivals})
+        return jsonify(result)
+
+    # GTFS yok: veriler/tram durakları + (isteğe göre) canlı
+    stations_metro = get_stations_for_line(route_id)
+    stations_tram = get_tram_stations_for_line(route_id) if not stations_metro else []
+    stations = stations_metro or stations_tram
+    if not stations:
+        return jsonify([])
     result = []
+    client_ip = request.remote_addr or "127.0.0.1"
     for s in stations:
-        sid = s["stop_id"]
-        stop_name = s["stop_name"]
+        sid = str(s.get("stationId"))
+        stop_name = (s.get("name") or "").strip()
         arrivals = []
-
-        if use_live and hat and _try_live_arrivals(hat, stop_name, request, arrivals):
-            pass
-        else:
-            for a in store.get_arrivals(route_id, sid):
-                arrivals.append({
-                    "direction": a.get("direction"),
-                    "minutes": a.get("minutes"),
-                    "display": a.get("display"),
-                })
+        if use_live and check_rate_limit(client_ip):
+            _try_live_arrivals(route_id, stop_name, request, arrivals)
         result.append({"stop_id": sid, "stop_name": stop_name, "arrivals": arrivals})
     return jsonify(result)
 
@@ -219,6 +269,6 @@ def live_departures():
 
 
 if __name__ == "__main__":
-    # Preload GTFS on startup
-    get_store()
+    # Preload GTFS on startup (optional: csvs yoksa veriler/tram ile çalışır)
+    get_store_optional()
     app.run(host="0.0.0.0", port=5000, debug=True)

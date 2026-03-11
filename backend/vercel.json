@@ -1,0 +1,4 @@
+{
+  "version": 2,
+  "buildCommand": "cp ../metro-lines.json ../tram-lines.json . 2>/dev/null || true"
+}

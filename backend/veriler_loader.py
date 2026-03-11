@@ -8,7 +8,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 _BACKEND_DIR = Path(__file__).resolve().parent
-VERILER_JSON_PATH = _BACKEND_DIR.parent / "metro-lines.json"
+# Vercel: JSON backend/ içinde; local: metrom-nerede/ kökünde
+VERILER_JSON_PATH = _BACKEND_DIR / "metro-lines.json"
+if not VERILER_JSON_PATH.exists():
+    VERILER_JSON_PATH = _BACKEND_DIR.parent / "metro-lines.json"
 
 _cache: Optional[Dict[str, Any]] = None
 

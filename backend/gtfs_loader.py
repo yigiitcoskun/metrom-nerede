@@ -527,10 +527,33 @@ class GTFSStore:
 
 
 _store = None
+_store_failed = False
 
 
 def get_store() -> GTFSStore:
-    global _store
-    if _store is None:
+    global _store, _store_failed
+    if _store is not None:
+        return _store
+    if _store_failed:
+        raise FileNotFoundError("GTFS not available (e.g. csvs folder missing)")
+    try:
         _store = GTFSStore().load()
-    return _store
+        return _store
+    except Exception:
+        _store_failed = True
+        raise
+
+
+def get_store_optional():
+    """Returns GTFS store or None if csvs/GTFS is not available (e.g. on Vercel)."""
+    global _store, _store_failed
+    if _store is not None:
+        return _store
+    if _store_failed:
+        return None
+    try:
+        _store = GTFSStore().load()
+        return _store
+    except Exception:
+        _store_failed = True
+        return None

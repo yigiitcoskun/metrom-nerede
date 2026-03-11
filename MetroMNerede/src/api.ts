@@ -11,7 +11,7 @@ import { Platform } from 'react-native';
 // - Simulator kullanıyorsan: '127.0.0.1'
 // - Gerçek iPhone kullanıyorsan: bilgisayarının IP'si (örn. '192.168.0.105')
 //   IP öğrenmek: Terminal'de  ifconfig | grep "inet " | grep -v 127
-const DEV_BACKEND_IP = '127.0.0.1';
+const DEV_BACKEND_IP = '192.168.1.106';
 
 function getDevApiBase(): string {
   if (Platform.OS === 'android') {
@@ -20,7 +20,8 @@ function getDevApiBase(): string {
   return `http://${DEV_BACKEND_IP}:5000`;
 }
 
-export const API_BASE = __DEV__ ? getDevApiBase() : 'https://your-backend.com';
+// Production: Vercel deploy sonrası buraya kendi URL'ini yaz (örn. https://metrom-nerede-api.vercel.app)
+export const API_BASE = __DEV__ ? getDevApiBase() : 'https://your-backend.vercel.app';
 
 export type CategoryKey = 'metrolar' | 'tramvaylar';
 

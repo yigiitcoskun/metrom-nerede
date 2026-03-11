@@ -91,6 +91,18 @@ Başka bir terminalde:
 
 **Gerçek cihazda test:** Telefon ve bilgisayar aynı Wi‑Fi'de olmalı. `MetroMNerede/src/api.ts` içinde `DEV_BACKEND_IP` değişkenini bilgisayarınızın yerel IP'siyle güncelleyin (örn. `192.168.1.42`). Android emülatörde backend `10.0.2.2:5000` olarak ayarlıdır.
 
+### 3. Vercel'de ücretsiz deploy (isteğe bağlı)
+
+Backend'i [Vercel](https://vercel.com) üzerinde serverless çalıştırabilirsin (Python/Flask, ücretsiz tier).
+
+1. **Vercel hesabı:** [vercel.com](https://vercel.com) → GitHub ile giriş.
+2. **Yeni proje:** "Add New" → "Project" → bu repoyu (metrom-nerede) seç.
+3. **Root Directory:** Proje ayarlarında **Root Directory** alanına `backend` yaz (sadece backend klasörü deploy edilir).
+4. **Build:** Vercel Flask'ı otomatik tanır; `backend/vercel.json` içindeki build komutu `metro-lines.json` ve `tram-lines.json` dosyalarını backend klasörüne kopyalar. Deploy'u başlat.
+5. **Mobil uygulamada:** Deploy bittikten sonra Vercel sana bir URL verir (örn. `https://metrom-nerede-api-xxx.vercel.app`). `MetroMNerede/src/api.ts` içinde production için bu URL'yi kullan: `API_BASE = __DEV__ ? ... : 'https://senin-proje.vercel.app'`.
+
+Not: Vercel ortamında GTFS (`csvs` klasörü) yoktur; hat/durak listesi ve canlı seferler `metro-lines.json` / `tram-lines.json` ve Metro İstanbul API üzerinden çalışır.
+
 ---
 
 ## API özeti
