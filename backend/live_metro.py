@@ -9,6 +9,7 @@ import time
 from collections import defaultdict
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -219,14 +220,16 @@ def sefer_getir_by_ids(
 
 
 def _zaman_to_minutes(zaman: str) -> Optional[int]:
-    """'12:16' -> şimdiki saatten kaç dk sonra."""
+    """'15:02' (İstanbul saati) -> şimdiki İstanbul saatinden kaç dk sonra."""
     if not zaman or len(zaman) < 5:
         return None
     try:
         h, m = int(zaman[0:2]), int(zaman[3:5])
     except ValueError:
         return None
-    now = datetime.now()
+    # Vercel sunucusu UTC'de; Metro İstanbul saati Türkiye. İstanbul saatiyle hesapla.
+    turkey = ZoneInfo("Europe/Istanbul")
+    now = datetime.now(turkey)
     target_min = h * 60 + m
     now_min = now.hour * 60 + now.minute
     delta = target_min - now_min
